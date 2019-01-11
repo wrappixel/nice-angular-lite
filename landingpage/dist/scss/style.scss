@@ -1,0 +1,19 @@
+/*
+Template Name: Material-Pro Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+//(Required file)
+@import 'variable';
+
+// Import Bootstrap source files (Required file)
+@import "bootstrap/bootstrap";
+
+//custom style
+@import 'custom';
+
+//icons
+@import "icons/material-design-iconic-font/css/materialdesignicons.min.css";
