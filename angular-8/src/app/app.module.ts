@@ -2,9 +2,8 @@ import * as $ from 'jquery';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
-  CommonModule,
-  LocationStrategy,
-  HashLocationStrategy
+	CommonModule,
+	LocationStrategy
 } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -24,29 +23,23 @@ import { AppComponent } from './app.component';
 import { SpinnerComponent } from './shared/spinner.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SpinnerComponent,
-    FullComponent,
-    NavigationComponent,
-    BreadcrumbComponent,
-    SidebarComponent
-  ],
-  imports: [
-    CommonModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    HttpClientModule,
-    NgbModule.forRoot(),
-    RouterModule.forRoot(Approutes, { useHash: false })
-  ],
-  providers: [
-    {
-      provide: LocationStrategy,
-      useClass: HashLocationStrategy
-    }
-  ],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		SpinnerComponent,
+		FullComponent,
+		NavigationComponent,
+		BreadcrumbComponent,
+		SidebarComponent
+	],
+	imports: [
+		CommonModule,
+		BrowserModule,
+		BrowserAnimationsModule,
+		FormsModule,
+		HttpClientModule,
+		NgbModule,
+		RouterModule.forRoot(Approutes, { useHash: false })
+	],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }

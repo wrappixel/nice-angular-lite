@@ -13,11 +13,11 @@
     <div class="col-md-6">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Custom star template</h4>
+                <h4 class="card-title">Custom star template <span class="badge badge-success text-white">New</span></h4>
                 <h6 class="card-subtitle">Custom rating template provided as child element</h6>
                <ngb-rating [(rate)]="currentRate">
-              <ng-template let-fill="fill">
-                <span class="star" [class.filled]="fill === 100">&#9733;</span>
+              <ng-template let-fill="fill" let-index="index">
+                <span class="star" [class.filled]="fill === 100" [class.bad]="index < 3">&#9733;</span>
               </ng-template>
             </ngb-rating>
             

@@ -10,8 +10,8 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },
   {
-    path: '/starter',
-    title: 'Starter Page',
+    path: '/dashboard',
+    title: 'Dashboard',
     icon: 'mdi mdi-gauge',
     class: '',
     extralink: false,
@@ -109,6 +109,14 @@ export const ROUTES: RouteInfo[] = [
     path: '/component/timepicker',
     title: 'Timepicker',
     icon: 'mdi mdi-calendar-clock',
+    class: '',
+    extralink: false,
+    submenu: []
+  },
+  {
+    path: '/component/toast',
+    title: 'Toast',
+    icon: 'mdi mdi-alert',
     class: '',
     extralink: false,
     submenu: []
