@@ -1,4 +1,4 @@
-# nice-angular-lite 8 and  7 
+# nice-angular-lite 7,8,9 and 10
 
 <h4><a href="https://www.wrappixel.com/demos/free-admin-templates/nice-angular-lite/angular/#/starter">Free Version Demo Link</a></h4>
 
@@ -7,7 +7,6 @@
 <a href="https://www.wrappixel.com/templates/niceadmin-angular/"><img src="https://www.wrappixel.com/wp-content/uploads/2019/01/nice-admin-angular-nw-1.jpg"/></a><br/>
 
 <h4><a href="https://wrappixel.com/demos/angular-admin-templates/nice-angular/main/dashboard/classic">Demo</a></h4>
-
 
 ## Development server
 
