@@ -11,7 +11,7 @@ declare var $: any;
 })
 export class SidebarComponent implements OnInit {
   showMenu = '';
-  public sidebarnavItems: any[];
+  public sidebarnavItems:RouteInfo[] =[];
   // this is for the open close
   addExpandClass(element: any) {
     if (element === this.showMenu) {

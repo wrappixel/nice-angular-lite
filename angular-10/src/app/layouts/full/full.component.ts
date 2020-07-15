@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
-declare var $: any;
+//declare var $: any;
 
 @Component({
   selector: 'app-full-layout',
@@ -13,8 +13,8 @@ export class FullComponent implements OnInit {
 
   public isCollapsed = false;
 
-  public innerWidth: any;
-  public defaultSidebar: any;
+  public innerWidth: number=-1;
+  public defaultSidebar: string='';
   public showMobileMenu = false;
   public expandLogo = false;
 
@@ -35,7 +35,7 @@ export class FullComponent implements OnInit {
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event) {
+  onResize(event:string) {
     this.handleSidebar();
   }
 
