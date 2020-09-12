@@ -11,7 +11,10 @@
 
 <!-- Description of Template -->
 <p>
- Lorem ipsume
+ One of the key factors why Nice Admin Angular Lite is popular because of its modular design and vibrant colors to thrill your eyes making this free angular admin dashboard an amazing masterpiece. Though it's free to download offers intriguing features like 10+ UI components, 7+ Pages templates, stunning font icons, 1 basic dashboard, basic table examples, Google Map integration and above all it provides easy customization options.
+</p>
+<p>
+    This versatile yet <a href="https://www.wrappixel.com/templates/category/angular-templates/">angular admin dashboard template free download</a> provides fully responsive pages and based on the Angular framework with SaSSBase CSS. To use this template for commercial purposes, WrapPixel has a ready-to-go premium version that comprises all components, features, and elements.
 </p>
 
 ## Development server
