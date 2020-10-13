@@ -1,0 +1,26 @@
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Latest Sales</h4>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th class="border-top-0">NAME</th>
+                    <th class="border-top-0">STATUS</th>
+                    <th class="border-top-0">DATE</th>
+                    <th class="border-top-0">PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let sale of latestSalesData'>
+
+                    <td class="txt-oflo">{{sale.name}} </td>
+                    <td><span class="label label-rounded {{sale.class}}">{{sale.status}}</span> </td>
+                    <td class="txt-oflo">{{sale.date}}</td>
+                    <td><span class="font-medium">${{sale.price}}</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
