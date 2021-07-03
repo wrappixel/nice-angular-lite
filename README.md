@@ -1,7 +1,7 @@
-<!-- # nice-angular-lite 7,8,9, 10 and 11 -->
+<!-- # nice-angular-lite 7,8,9, 10 and 11, 12 -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://www.wrappixel.com/templates/nice-admin-angular-lite/">Nice Angular 11 Admin Lite</a>
+  <a href="https://www.wrappixel.com/templates/nice-admin-angular-lite/">Nice Angular 12 Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
@@ -85,7 +85,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2020 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2021 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
   </li>
   <li>
     <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
