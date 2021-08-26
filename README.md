@@ -70,7 +70,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://www.wrappixel.com/demos/free-admin-templates/nice-angular-lite/angular/dashboard" rel="nofollow">https://www.wrappixel.com/demos/free-admin-templates/nice-angular-lite/angular/dashboard</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/angular/nice-angular-free/angular/dashboard" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/angular/nice-angular-free/angular/dashboard</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/nice-admin-angular-lite/" rel="nofollow">
@@ -106,7 +106,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 </a>
 <p>
    Checkout our premium version of Nice Angular Admin for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/angular-admin-templates/nice-angular/main/dashboard/classic">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/niceadmin-angular/">Download</a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/angular/nice-angular/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/niceadmin-angular/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
