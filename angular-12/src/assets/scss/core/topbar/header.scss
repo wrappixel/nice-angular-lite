@@ -56,10 +56,7 @@
                 background: $transparent-dark-bg;
             }    
         }
-    }
-    .user-dd, .mailbox {
-        min-width: 280px;
-    }
+    } 
     .nav-toggler, .topbartoggler{
         color:$theme-light;
         padding: 0 15px;
@@ -112,7 +109,7 @@ Topbar Responsive
 @media (max-width: 767px) {
     .topbar .top-navbar {
         .navbar-collapse.show, .navbar-collapse.collapsing {
-            display: block;
+            display: flex;
             width: 100%;
             border-top: 1px solid $border-color;
         }
@@ -134,11 +131,24 @@ Topbar Responsive
         }
         
     }
-}
-@media only screen and (max-width: 767px) and (orientation: landscape) {
-    .user-dd{
-        .profile-dis{
-            height: 110px;
-        }
+} 
+
+@media (max-width: 767px) {
+  .topbar .top-navbar {
+    .navbar-header {
+      position: fixed;
+      z-index: 10;
     }
+    .navbar-collapse.show {
+      position: relative;
+      top: 60px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .sidebar-nav .nav-small-cap {
+    display: none !important;
+  } 
 }
