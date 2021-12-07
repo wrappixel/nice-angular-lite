@@ -1,7 +1,7 @@
 <!-- # nice-angular-lite 7,8,9, 10 and 11, 12 -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://www.wrappixel.com/templates/nice-admin-angular-lite/">Nice Angular 12 Admin Lite</a>
+  <a href="https://www.wrappixel.com/templates/nice-admin-angular-lite/">Nice Angular 13 Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
