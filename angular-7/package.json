@@ -28,7 +28,7 @@
         "angular-datatables": "^6.0.0",
         "bootstrap": "^4.1.1",
         "c3": "^0.4.23",
-        "chart.js": "^2.7.1",
+        "chart.js": "^2.9.4",
         "chartist": "^0.11.0",
         "core-js": "^2.5.4",
         "d3": "^4.8.0",
