@@ -51,10 +51,10 @@ Nice Admin Angular Dashboard
 </tr>
 <tr>
   <td>
-  Angular 16 Version
+  Angular 17 Version
   </td>
   <td>
-  Angular 16 Version
+  Angular 17 Version
   </td>
 </tr>
 <tr>
